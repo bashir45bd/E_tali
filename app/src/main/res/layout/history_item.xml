@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:text="Name"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:textColor="@color/color"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+
+            />
+
+            <TextView
+                android:id="@+id/reason"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text="No reason"
+                android:textColor="#F2090909"
+                android:textSize="@dimen/_13ssp" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text="017232455"
+                android:textColor="#F2090909"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_gravity="start"
+                android:textSize="@dimen/_10ssp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

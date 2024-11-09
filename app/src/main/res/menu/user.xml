@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/user_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="History"
+        android:icon="@drawable/more_24"
+        />
+
+    <item
+        android:id="@+id/user_edit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Edit"
+        android:icon="@drawable/edit_note_24"
+        />
+    <item
+        android:id="@+id/user_delete1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Delete"
+        android:icon="@drawable/delete_outline_24"
+        />
+
+
+
+
+</menu>
